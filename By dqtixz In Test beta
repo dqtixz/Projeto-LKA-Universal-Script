@@ -1,0 +1,265 @@
+--[[Tab:AddButton({
+	Name = "Auto Roll",
+	Callback = function()
+	  
+	  end
+})]]
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/memejames/Nothing-project1/main/Suku')))()
+
+local Window = OrionLib:MakeWindow({Name = "Universal │ Projeto LKA", HidePremium = true, SaveConfig = false, ConfigFolder = "Projeto LKA", IntroText = "Projeto LKA", IntroIcon = "rbxassetid://15797726334", IntroEnabled = true, Icon = "rbxassetid://15797726334"})
+
+local Tab = Window:MakeTab({
+	Name = "Projeto LKA Scripts",
+	Icon = "rbxassetid://11176073582",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("Updates Comesoon (beta)")
+Tab:AddLabel("All Script By Projeto LKA")
+Tab:AddLabel("No key")
+
+Tab:AddButton({
+  Name = "Hade's Rng",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Hades-Rng-Projeto-lka/main/Script"))();
+  end
+})
+
+Tab:AddButton({
+	Name = "Pistol 1v1-V2 MB/PC",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Pistol-1v1-script/main/Projeto%20lka"))();
+	 end
+})
+
+Tab:AddButton({
+	Name = "Pistol 1v1 MB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/1V1-Gun-Script-By-dqtixz-Not-detected/main/OP"))();
+	 end
+})
+
+Tab:AddButton({
+	Name = "Pistol 1v1 PC",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/1v1-Pistol-Scripy-Made-By-dqtixz-For-Pc/main/Free"))();
+	 end
+})
+
+Tab:AddButton({
+	Name = "Mobile Sword Fight Classic",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Sword-Classic-Script-OP-Auto-Kill-And-Reach-And-Auto-Equip-Sword-And-Kill-All-By-dqtixz/main/ScriptBlox"))();
+ end
+})
+
+Tab:AddButton({
+	Name = "[FPS] No-Scope Arcade",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Script-no-scope-by-dqtixz-mb-and-pc/main/free"))();
+	   end
+})
+
+Tab:AddButton({
+	Name = "(UPD) GARENA FREE FIRE MAX🏆",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Free-Fire-Max-Roblox-Script-By-dqtixz-Open-Source/main/Free"))();
+	   end
+})
+
+Tab:AddButton({
+	Name = "Legends Of Speed ⚡",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Legends-of-speed-script/main/by%20dqtixz"))();
+	  	   end
+})
+
+Tab:AddButton({
+	Name = "Money Grab Simulator",
+	Callback = function()
+	  local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"Projeto LKA I Money Grab Simulator OP", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"p" -- You can put any keybind here to open close.
+)
+
+-- menus --
+
+local tab1 = window:CreateTab("Farm")
+local tab2 = window:CreateTab("UI")
+
+-- botãos
+
+tab1:CreateButton("Infinity Strenght", function()
+print(value)
+while true do
+local args = {
+    [1] = 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+}
+
+game:GetService("ReplicatedStorage").Event.Train:FireServer(unpack(args))
+wait(0.000000000000000000001) end
+end)
+
+tab1:CreateButton("Infinity Wins", function()
+print(value)
+while true do
+local args = {
+    [1] = 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+}
+
+game:GetService("ReplicatedStorage").Event.WinGain:FireServer(unpack(args))
+wait(0.0000000000000000000001) end
+end)
+
+tab1:CreateButton("Infinity Rebirth", function()
+print(value)
+while true do
+  local args = {
+    [1] = 0
+}
+
+game:GetService("ReplicatedStorage").Event.HealthAdd:FireServer(unpack(args))
+wait(0.0000000000000000001) end
+end)
+
+tab1:CreateButton("Infinity Enchant", function()
+print(value)
+while true do
+local args = {
+    [1] = 0,
+    [2] = 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+}
+
+game:GetService("ReplicatedStorage").Event.Enchanted:FireServer(unpack(args))
+wait(0.00000000000000000000001) end
+end)
+
+tab2:CreateButton("Close UI", function()
+print(value)
+PabloLib:Close()
+end)
+
+tab1:CreateInfo("/e Admin Inf Power")
+tab1:CreateInfo("Easy Game")
+  
+tab2:CreateWarning("Create By dqtixz")
+tab2:CreateWarning("https://scriptblox.com")
+tab2:CreateWarning("https://scriptblox.com/u/dqtixz")
+	  	  	   end
+})
+
+Tab:AddButton({
+	Name = "Money Grab Simulator",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Zombie-attack-New/main/Script%20by%20dqtixz%20full%20OP"))();
+   end
+})
+
+Tab:AddButton({
+	Name = "Esp Universal",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Universal-Esp-Script/main/Projeto%20LKA"))();
+ end
+})
+
+local Tab = Window:MakeTab({
+	Name = "F Hub",
+	Icon = "rbxassetid://7205866972",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Hade's Rng",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/memejames/Hide/main/auto%20get%20100k%20pet"))()
+ end
+})
+
+Tab:AddParagraph("Suport","- Radiant Residents Break in 2 Kaiju battlegrounds Hades RNG")
+
+Tab:AddButton({
+	Name = "F Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/memejames/Hide/main/Keyv3"))()
+end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Universal",
+	Icon = "rbxassetid://5009915812",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "RTX",
+	Callback = function()
+getgenv().RTX_Name = "rtxnamehere" --not really needed if you don't need it
+
+--[[
+examples auto loads features :
+
+
+getgenv().RTX_Name = "Midday lite" 
+⁹
+-Morning
+-Afternoon
+-Midday
+-Evening
+-Night
+-Midnight
+
+-Morning lite
+-Midday lite
+-Afternoon lite
+-Evening lite
+-Night lite
+-Midnight lite
+
+]]
+
+loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()
+	end    
+})
+
+Tab:AddButton({
+	Name = "Fly Mobile",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+	end    
+})
+
+Tab:AddButton({
+	Name = "Aimbot fov Mobile",
+	Callback = function()
+_G.config = {
+Fov = 30,
+MaxTransparency = 0.1,
+Smoothness = 1,
+TargetPart = "Head",
+TeamCheck = false,
+WallCheck = false,
+MaxDistanceEnabled = false,
+MaxDistance = 10000,
+FovColor = Color3.fromRGB(65, 105, 225)
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/D0LLYNHO/AIMBOT-FOV/main/MOBILE-BETA-0.2", true))()
+	end    
+})
+
+Tab:AddButton({
+	Name = "Simple Spy PC",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+	end    
+})
+
+Tab:AddButton({
+	Name = "Simple Spy Mobile",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile"))()
+end    
+})
